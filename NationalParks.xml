@@ -1,11 +1,18 @@
-<NationalParks>
-  <NationalPark Rating="5.0"> <Name>Yellowstone</Name>
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+  
+  <Park id="NP001">
+    <Name>Yellowstone</Name>
+    <State>Wyoming</State>
+    <EstablishedYear>1872</EstablishedYear>
     <Phone>307-344-7381</Phone>
-    <Phone>307-344-0000</Phone> <Address NearestAirport="WYS"> <Number>1</Number>
-      <Street>North Entrance Road</Street>
-      <City>Yellowstone National Park</City>
-      <State>WY</State>
-      <Zip>82190</Zip>
-    </Address>
-  </NationalPark>
-  </NationalParks>
+  </Park>
+  
+  <Park id="NP002">
+    <Name>Grand Canyon</Name>
+    <State>Arizona</State>
+    <EstablishedYear>1919</EstablishedYear>
+    <Phone>928-638-7888</Phone>
+  </Park>
+
+</NationalParks>
