@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+  <!-- 1. The required sample from Figure 1 (Must match exactly) -->
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+
+  <!-- 10 Additional Real National Parks -->
   <NationalPark Rating="4.9">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
-    <Phone>307-344-2017</Phone>
     <Address NearestAirport="BZN">
       <Number>2</Number><Street>North Entrance Rd</Street><City>Gardiner</City><State>MT</State><Zip>59030</Zip>
     </Address>
   </NationalPark>
   <NationalPark Rating="4.8">
-    <Name>Grand Canyon</Name>
-    <Phone>928-638-7888</Phone>
-    <Address NearestAirport="PHX">
-      <Number>2</Number><Street>Village Loop Drive</Street><City>Grand Canyon Village</City><State>AZ</State><Zip>86023</Zip>
-    </Address>
-  </NationalPark>
-  <NationalPark>
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
     <Address NearestAirport="FAT">
@@ -69,6 +77,13 @@
     <Phone>406-888-7800</Phone>
     <Address NearestAirport="FCA">
       <Number>1</Number><Street>Grinnell Dr</Street><City>West Glacier</City><State>MT</State><Zip>59936</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.4">
+    <Name>Joshua Tree</Name>
+    <Phone>760-367-5500</Phone>
+    <Address NearestAirport="PSP">
+      <Number>74485</Number><Street>National Park Dr</Street><City>Twentynine Palms</City><State>CA</State><Zip>92277</Zip>
     </Address>
   </NationalPark>
 </NationalParks>
