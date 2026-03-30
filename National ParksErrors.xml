@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+  
+  <Park id="NP003">
+    <Name>Yosemite</Name>
+    <State>California</State>
+    <EstablishedYear>Eighteen Ninety</EstablishedYear>
+    <Phone>209-372-0200</Phone>
+  </Park>
+  
+  <Park>
+    <Name>Zion</Name>
+    <State>Utah</State>
+    <EstablishedYear>1919</EstablishedYear>
+    <Phone>435-772-3256</Phone>
+  </Park>
+
+</NationalParks>
